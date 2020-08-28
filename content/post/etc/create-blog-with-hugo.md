@@ -346,6 +346,53 @@ $ ./deploy.sh
 
 ## Utterences (Github 댓글 위젯) 추가하기
 
+이제 블로그에 댓글을 달아보자. 이 때, 레포지토리가 하나 더 필요하다. 나는 `blog-comments`로 지었다. 그 후 [이 곳](https://utteranc.es/)으로 이동하자. 그리고 `configuration` 절로 이동해서 "repo" 입력 창에, 자신에 레포지토리를 입력하자. 나의 경우는 `gurumee92/blog-comments`이다.
+
+![Utterences 1](/images/etc/create-blog-with-hugo/04.png)
+
+그리고 `Blog Post ↔️ Issue Mapping` 절로 이동해서 다음 6개 중 하나를 고른다. 나는 3번째 것을 선택했다.
+
+![Utterences 2](/images/etc/create-blog-with-hugo/05.png)
+
+그러면 밑에 다음 스크립트가 생성된다.
+
+```html
+<script src="https://utteranc.es/client.js"
+        repo="gurumee92/blog-comments"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+```
+
+이 스크립트를 복사하여, `blog/themes/<자신의 테마>/layouts/partials/post/disqus.html` 에다 다음 코드를 수정하면 된다.
+
+> 참고!
+> 이건 내 테마에만 그럴 수 있다. 하지만 보통 테마 밑에 "layouts" 디렉토리는 있으니 차분히, 디스커스 혹은 footer 쪽을 찾다 보면, 적당한 위치를 찾을 수 있을 것이다.
+
+blog/themes/hugo-tranquilpeak-theme/layouts/partials/post/disqus.html
+```html
+<div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+<!-- 추가 코드 -->
+<script src="https://utteranc.es/client.js"
+        repo="gurumee92/blog-comments"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+```
+
+실제 내 블로그의 포스트는 다음과 같이 댓글이 연결되어 있다.
+
+![Utterences 3](/images/etc/create-blog-with-hugo/06.png)
+
+> 참고!
+> 댓글 달 때, `Utterences`앱을 설치하지 않으면, 설치하라는 문구가 뜬다 `blog-comments`에만 설치하도록 하자. 자신이 블로그를 개설할 때, 댓글을 먼저 달아보도록 하자.
+
 
 ## 참고
 
