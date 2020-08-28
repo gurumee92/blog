@@ -2,7 +2,6 @@
 title: "Hugo + Github Pages로 개발 블로그 만들기"
 date: 2020-08-28T22:02:19+09:00
 categories:
-- category
 - etc
 tags:
 - hugo
