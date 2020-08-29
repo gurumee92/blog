@@ -1,5 +1,5 @@
 ---
-title: "Golang 기초 프로그래밍 - 안녕, 고랭[작성 중]"
+title: "기초 프로그래밍 with Golang - 안녕, 고랭[작성 중]"
 date: 2020-08-29T16:28:51+09:00
 categories:
 - cs
@@ -20,9 +20,9 @@ thumbnailImage: //gurumee92.github.io/images/cs/basic-programming-language/logo.
 
 ## 프로그래밍이란 무엇인가?
 
-## 왜 Golang?
+## 왜 Golang일까?
 
-## Golang 설치
+## Golang 설치와 개발 환경 구성
 
 ## 안녕, 고랭
 
