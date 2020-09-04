@@ -33,7 +33,7 @@ canonifyurls = true
 [author]
   name = "Hyunwoo Jang"
   bio = "Hi I'm Gurumee~! Nice to meet you"
-  job = "Devops Enginner"
+  job = "Devops Engineer"
   location = "Korea"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "gurumee92@gmail.com"
