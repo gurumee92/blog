@@ -32,7 +32,7 @@ canonifyurls = true
 
 [author]
   name = "Hyunwoo Jang"
-  bio = "Hi I'm Gurumee~! Nice to meet you"
+  bio = "안녕하세요. 구르미입니다." 
   job = "Devops Engineer"
   location = "Korea"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -70,12 +70,7 @@ canonifyurls = true
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
   url = "/archives"
-[[menu.main]]
-  weight = 5
-  identifier = "about"
-  name = "About"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/#about"
+
 
 [[menu.links]]
   weight = 1
@@ -83,6 +78,12 @@ canonifyurls = true
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
   url = "https://github.com/gurumee92"
+[[menu.links]]
+  weight = 1
+  identifier = "portfolio"
+  name = "Portfolio"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-address-book\"></i>"
+  url = "https://gurumee92.github.io/portfolio/"
 
 [[menu.misc]]
   weight = 1
