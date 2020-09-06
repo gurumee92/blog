@@ -46,7 +46,7 @@ thumbnailImage: //gurumee92.github.io/images/cloud/gcp/logo.png
 
 ## GCP 가입하기
 
-먼저, 이 가입하기 절차는 2020년 09월에 밝힌다. 이후에 UI가 바뀌었을 수 있다. 그래도 기본 틀은 비슷할 것이다.
+먼저, 이 가입하기 절차는 2020년 09월에 진행했음을 밝힌다. 이후에 UI가 바뀌었을 수 있다. 그래도 기본 틀은 비슷할 것이다.
 
 `Google Cloud Platform` 페이지를 접속한다. [이곳](https://cloud.google.com/gcp)을 클릭하면, 다음 화면이 나온다.
 
