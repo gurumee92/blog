@@ -2,7 +2,8 @@
 title: "블로그 구축기 (1) Hugo + Github으로 개인 블로그 만들기"
 date: 2020-08-28T22:02:19+09:00
 categories:
-- etc
+- experience
+- hugo+github.io=blog
 tags:
 - hugo
 - github pages
@@ -58,7 +59,7 @@ Hugo Static Site Generator v0.74.3/extended darwin/amd64 BuildDate: unknown
 
 다음과 같이 말이다.
 
-![깃 헙 레포지토리](/images/etc/01-create-blog-with-hugo/01.png)
+![깃 헙 레포지토리](/images/experience/blog/01-create-blog-with-hugo/01.png)
 
 
 ## Hugo로 프로젝트 만들기
@@ -208,7 +209,7 @@ Press Ctrl+C to stop
 
 그 후, "localhost:1313"에 들어가면 다음과 같은 화면이 뜰 것이다.
 
-![로컬 띄어놓은 화면](/images/etc/01-create-blog-with-hugo/02.png)
+![로컬 띄어놓은 화면](/images/experience/blog/01-create-blog-with-hugo/02.png)
 
 
 ## Git 레포지토리 연결 및 쉘 스크립트 작성
@@ -326,7 +327,7 @@ $ hugo server -D
 
 그럼 `http://localhost:1313` 에 접속하면 다음 화면이 출력된다.
 
-![포스트 화면](/images/etc/create-blog-with-hugo/03.png)
+![포스트 화면](/images/experience/blog/01-create-blog-with-hugo/03.png)
 
 컨텐츠 작성이 완료되면, 다시 터미널에 다음을 입력해서 배포하면 된다.
 
@@ -339,11 +340,11 @@ $ ./deploy.sh
 
 이제 블로그에 댓글을 달아보자. 이 때, 레포지토리가 하나 더 필요하다. 나는 `blog-comments`로 지었다. 그 후 [이 곳](https://utteranc.es/)으로 이동하자. 그리고 `configuration` 절로 이동해서 "repo" 입력 창에, 자신에 레포지토리를 입력하자. 나의 경우는 `gurumee92/blog-comments`이다.
 
-![Utterences 1](/images/etc/01-create-blog-with-hugo/04.png)
+![Utterences 1](/images/experience/blog/01-create-blog-with-hugo/04.png)
 
 그리고 `Blog Post ↔️ Issue Mapping` 절로 이동해서 다음 6개 중 하나를 고른다. 나는 3번째 것을 선택했다.
 
-![Utterences 2](/images/etc/01-create-blog-with-hugo/05.png)
+![Utterences 2](/images/experience/blog/01-create-blog-with-hugo/05.png)
 
 그러면 밑에 다음 스크립트가 생성된다.
 
@@ -379,7 +380,7 @@ blog/themes/hugo-tranquilpeak-theme/layouts/partials/post/disqus.html
 
 실제 내 블로그의 포스트는 다음과 같이 댓글이 연결되어 있다.
 
-![Utterences 3](/images/etc/01-create-blog-with-hugo/06.png)
+![Utterences 3](/images/experience/blog/01-create-blog-with-hugo/06.png)
 
 > 참고!
 > 댓글 달 때, `Utterences`앱을 설치하지 않으면, 설치하라는 문구가 뜬다 `blog-comments`에만 설치하도록 하자. 자신이 블로그를 개설할 때, 댓글을 먼저 달아보도록 하자.

@@ -2,7 +2,8 @@
 title: "블로그 구축기 (2) 검색 엔진에 노출하기"
 date: 2020-09-27T22:04:40+09:00
 categories:
-- etc
+- experience
+- hugo+github.io=blog
 tags:
 - hugo
 - github pages
@@ -28,15 +29,15 @@ keywords:
 
 먼저 구글에 사이트를 등록한다. [Google Search Console](https://search.google.com/search-console/about?hl=ko)로 이동한다.
 
-![구글 서치 콘솔 1](/images/etc/02-register-blog-to-search-engine/01.png)
+![구글 서치 콘솔 1](/images/experience/blog/02-register-blog-to-search-engine/01.png)
 
 "시작하기" 버튼을 누른다.
 
-![구글 서치 콘솔 2](/images/etc/02-register-blog-to-search-engine/02.png)
+![구글 서치 콘솔 2](/images/experience/blog/02-register-blog-to-search-engine/02.png)
 
 "URL 접두어"를 클릭한 후 자신의 사이트를 입력한다.
 
-![구글 서치 콘솔 3](/images/etc/02-register-blog-to-search-engine/03.png)
+![구글 서치 콘솔 3](/images/experience/blog/02-register-blog-to-search-engine/03.png)
 
 다음의 html 파일을 다운로드 받는다. 그 후, 자신의 블로그 디렉토리의 "public" 디렉토리에 넣어준다. 또한, 자신의 "public" 디렉토리에 `sitemap.xml`이 없다면, 만들어주고 다음을 입력해준다.
 
@@ -68,11 +69,11 @@ keywords:
 
 이제 네이버를 등록해보자. [네이버 웹 마스터 도구](https://searchadvisor.naver.com/console/board)로 이동한다. 
 
-![네이버 검색 1](/images/etc/02-register-blog-to-search-engine/04.png)
+![네이버 검색 1](/images/experience/blog/02-register-blog-to-search-engine/04.png)
 
 여기서 자신의 블로그를 입력한 후 엔터를 쳐준다. 그럼 다음 화면이 나온다.
 
-![네이버 검색 2](/images/etc/02-register-blog-to-search-engine/05.png)
+![네이버 검색 2](/images/experience/blog/02-register-blog-to-search-engine/05.png)
 
 역시, 해당 HTML 파일을 다운 받아 블로그의 "public" 디렉토리에 넣어준다. 그 후, `robots.txt`를 다음과 같이 입력하여, 네이버 및 기타 검색 로봇들이 수집할 수 있게 허용해준다.
 
@@ -116,19 +117,19 @@ Allow: /
 
 그리고 다시 한 번 배포를 진행한다. 그 후 "웹 마스터 도구 > 사이트 관리"로 이동한다. 해당 URL을 클릭하면 된다.
 
-![네이버 검색 3](/images/etc/02-register-blog-to-search-engine/06.png)
+![네이버 검색 3](/images/experience/blog/02-register-blog-to-search-engine/06.png)
 
 그럼 다음 화면으로 넘어가게 된다.
 
-![네이버 검색 4](/images/etc/02-register-blog-to-search-engine/07.png)
+![네이버 검색 4](/images/experience/blog/02-register-blog-to-search-engine/07.png)
 
 여기서 "요청 > RSS 제출"로 넘어가서, 자신의 RSS를 제출하자.
 
-![네이버 검색 5](/images/etc/02-register-blog-to-search-engine/08.png)
+![네이버 검색 5](/images/experience/blog/02-register-blog-to-search-engine/08.png)
 
 이제 "요청 > 사이트맵 제출"로 넘어가서 자신의 사이트맵을 제출하자.
 
-![네이버 검색 6](/images/etc/02-register-blog-to-search-engine/09.png)
+![네이버 검색 6](/images/experience/blog/02-register-blog-to-search-engine/09.png)
 
 끝이다. 채널 등록도 있는데 이거는 넘어가자.
 
@@ -137,15 +138,15 @@ Allow: /
 
 이제 다음 검색에 사이트를 등록해보자. 먼저 [Daum Search](https://register.search.daum.net/index.daum)로 이동한다.
 
-![다음 검색 1](/images/etc/02-register-blog-to-search-engine/10.png)
+![다음 검색 1](/images/experience/blog/02-register-blog-to-search-engine/10.png)
 
 그 후 자신의 사이트를 등록한다. 그럼 수집 동의 페이지로 이동한다.
 
-![다음 검색 2](/images/etc/02-register-blog-to-search-engine/11.png)
+![다음 검색 2](/images/experience/blog/02-register-blog-to-search-engine/11.png)
 
 모두 동의를 누르고 다음 화면으로 넘어가자.
 
-![다음 검색 3](/images/etc/02-register-blog-to-search-engine/12.png)
+![다음 검색 3](/images/experience/blog/02-register-blog-to-search-engine/12.png)
 
 필요 정보들을 모두 입력한다. 끝이다.
 
