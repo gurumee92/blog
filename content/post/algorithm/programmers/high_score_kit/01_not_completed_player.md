@@ -25,7 +25,7 @@ thumbnailImage: //gurumee92.github.io/images/algorithm/programmers/logo.png
 > 문제 링크는 [이 곳](https://programmers.co.kr/learn/courses/30/lessons/42576?language=java)에서 확인할 수 있습니다.
 
 
-## 문제 조건과 입력을 분석하기
+## 문제 분석
 
 문제 조건은 다음과 같다.
 
