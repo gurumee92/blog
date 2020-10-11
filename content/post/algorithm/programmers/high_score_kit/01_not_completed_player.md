@@ -13,6 +13,7 @@ tags:
 - hash
 keywords:
 - tech
+thumbnailImagePosition: left
 thumbnailImage: //gurumee92.github.io/images/algorithm/programmers/logo.png
 ---
 
