@@ -11,7 +11,7 @@ tags:
 - tutorial
 - install
 keywords:
-- aws
+- influxdb
 thumbnailImagePosition: left
 thumbnailImage: //gurumee92.github.io/images/monitoring/influxdb-v2/logo.png
 ---
